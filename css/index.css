@@ -89,8 +89,17 @@ nav {
     }
     
     nav   {
-    
-    
+        border-radius: 25px;
+        display: block;
+        background-color:#a0cc78;
+        font-size: 90%;
+        padding: 20px;
+        width: 200px;
+        height: auto;
+        border: 1px solid #a0cc78;
+        color: #333333;
+        margin: 0px;
+        width:159px;
     }
     
     nav>ul {
