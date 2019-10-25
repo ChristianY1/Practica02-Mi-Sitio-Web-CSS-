@@ -1,21 +1,17 @@
 html{
-    background-color: #207561;
+    background-color: #113f67;
 }
 body{
-    color: #589167;
+    color: black;
     background-color: invory;
     font-family: 'Roboto', sans-serif;
 }
 h1,h2,h3,h4{
-    color: #DA4302;
-    background-color: #a0cc78;
+    color: #65c6c4;
+    background-color: #113f67;
 }
 h2{
     font-size: 1.5em;
-}
-aside blockquote{
-    color: #DA4302;
-    margin: 20px 5px;
 }
 nav > ul{
     line-height: 2em;
@@ -23,13 +19,13 @@ nav > ul{
     padding-left: 5px;
 }
 body > footer{
-    background-color: #DA4302;
-    color: #a0cc78;
+    background-color: #408ab4;
+    color: #113f67;
     font: normal small-caps bold 0.9em/3em;
     text-align: center;
 }
 nav > ul > li > a:link, nav > ul > li a:visited{
-    color: #DA4302;
+    color: #65c6c4;
     text-decoration: none;
 }
 nav > ul > li > a:hover, nav > ul > li a:active{
@@ -68,18 +64,7 @@ nav{
     padding: 0px;
     margin: 0px;
 }
-section{
-    margin-left: 210px;
-    width: 100;
-    float: center;
-}
-aside{
-    width: 200px;
-    margin-left: 350px;
-    margin: 20px;
-    float: left;
 
-}
 nav {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -91,12 +76,12 @@ nav {
     nav   {
         border-radius: 25px;
         display: block;
-        background-color:#a0cc78;
+        background-color: #408ab4;
         font-size: 90%;
         padding: 20px;
         width: 200px;
         height: auto;
-        border: 1px solid #a0cc78;
+        border: 1px solid #408ab4;
         color: #333333;
         margin: 0px;
         width:159px;
@@ -115,7 +100,7 @@ nav {
     nav > ul > li > a {
     font-size: 80%;
     display: block;
-    border-bottom: 1px dashed #DA4302;
+    border-bottom: 1px dashed #65c6c4;
     padding: 5px;
     text-decoration: none;
     width:160px;
@@ -124,7 +109,34 @@ nav {
     color: #207561;
     background-color: #eeeeee;
     }
+/* seccion */
+section{
+    margin-left: 210px;
+    width: 650px;
+    float: center;
+}
+/* article*/
+article{
+    width: 375px;
+    float: left;
+    background-color: #34699a;
 
+}
+/*aside*/
+
+aside{
+    width: 250px;
+    float: right;
+    background-color: #34699a;
+}
+/* footer*/
 footer{
     clear: both;
+}
+/* body */
+body {
+    max-width: 960px;
+    min-width: 640px;
+    width: 95%;
+    background-color: #34699a;
 }
