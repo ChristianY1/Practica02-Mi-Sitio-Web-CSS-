@@ -1,0 +1,19 @@
+
+
+html{
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: internal root color;
+}
+/*body*/
+body{
+    background-color: #2e3842;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    display: block;
+}
+*,*:before, *:after{
+    box-sizing: border-box;
+}
