@@ -53,6 +53,7 @@ header, section, footer, aside, nav, article, hgroup{
 body > header > img{
     display: block;
     width: 100%;
+
 }
 nav{
     width: 200px;
@@ -104,6 +105,9 @@ nav {
     padding: 5px;
     text-decoration: none;
     width:160px;
+    z-index: 9999;
+    
+   
     }
     nav > ul > li > a:hover, nav > ul > li > a:focus {
     color: #207561;

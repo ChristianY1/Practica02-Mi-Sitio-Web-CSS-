@@ -1,0 +1,23 @@
+/*encabezado*/
+header{
+    border: solid black 1px;
+}
+/*meú de navegacion*/
+nav{
+    border: black solid 1px;
+    width: 30%;
+    float: left;
+}
+/*seccion*/
+section{
+    border: #000000 solid 1px;
+    float: right;
+    width: 50%;
+    margin-right: 8%;
+}
+/*footer*/
+footer{
+    clear: both;
+    text-align: center;
+    border: solid black 1px;
+}
