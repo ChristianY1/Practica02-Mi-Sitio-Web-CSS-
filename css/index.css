@@ -155,3 +155,6 @@ body {
     text-align: right;
     color: white;
 }
+section > #palabraClave span{
+  background-color: #57AFAF;  
+}
