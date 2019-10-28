@@ -1,30 +1,30 @@
 /*nav*/
 nav{
-    border: black solid 1px;
+    
     width: 20%;
     float: left;
 }
 /*seccion*/
 section{
-    border: black solid 1px;
+   
     width: 40%;
     margin-left: 5%;
     float: left;
 }
 /*aside*/
 aside{
-    border: black solid 1px;
+  
     width: 25%;
     margin-left: 5%;
     float: left;
 }
 /*footer*/
 footer{
-    border: black solid 1px;
+   
     text-align: center;
     clear: both;
 }
 
 header{
-    border: solid black 1px;
+    
 }
