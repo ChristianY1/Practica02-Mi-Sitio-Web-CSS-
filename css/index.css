@@ -51,6 +51,7 @@ body{
     /*margen automatico*/
     margin-left: auto;
     margin-right: auto;
+   background-color: white;
 }
 header, section, footer, aside, nav, article, hgroup{
     display: block;
@@ -143,13 +144,11 @@ footer{
     background-color: #788475;
     text-align: center;
 }
-}
 /* body */
 body {
     max-width: 960px;
     min-width: 640px;
     width: 95%;
-    background-color: #34699a;
 }
 .barraBusqueda{
     width: 640px;
